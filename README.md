@@ -19,7 +19,7 @@
 - 43.34 98.3
 - 34 4
 
-## Установка
+## Использование
 1. Склонируйте репозиторий `git clone https://github.com/xxaqurm/Lab1`
 2. Скомпилируйте файл: `g++ path/to/repository/main.cpp -o main`
 3. Запусти программу:

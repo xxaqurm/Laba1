@@ -33,6 +33,14 @@ int main(void) {
 		cin >> points[i][0] >> points[i][1]; 
         }
 
+	double k = (points[1][1] - points[1][0]) / (points[1][0] - points[0][0]);
+        double b = points[0][1] - k * points[0][0];
+
+        if (points[2][1] == k * points[2][0]) {
+                cout << "Точки лежат на одной прямой, треугольник не задан" << endl;
+                return 1;
+        }	
+
 	// найдем длины сторон треугольника
         double side1 = findTriangleSide(points[0][0], points[1][0], points[0][1], points[1][1]);
         double side2 = findTriangleSide(points[0][0], points[2][0], points[0][1], points[2][1]);

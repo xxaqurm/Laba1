@@ -2,7 +2,7 @@
 #include <iomanip>
 #include <vector>
 #include <cmath>
-
+/* Dota luchshaya igra v mire */
 using namespace std;
 
 
